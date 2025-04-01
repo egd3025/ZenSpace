@@ -1,6 +1,6 @@
 # ZenSpace Website
 UX/UI Final Project
-### Created by: Team 10
+### Created by:
 - John Matias
 - Madalyn Sica
 - Elizabeth Daly
