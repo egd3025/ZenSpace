@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.app-store {
+    background: transparent;
+    border: 1px solid white;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+}
+.social-icons img {
+    width: 30px;
+    margin: 0 5px;
+}
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.collaboration-card {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    max-width: 600px;
+    gap: 20px;
+}
+.collaboration-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .collaboration-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 40px;
+    }
+}
